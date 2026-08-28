@@ -72,34 +72,28 @@ Prompting para Agentes de IA (AI Agents): Focado em tarefas de longa duração e
 ---
 
 ## 📝 Glossário de Termos
-**Few-shot prompting (ou Few-shot learning):** É uma técnica que permite guiar um modelo de linguagem para uma nova tarefa ao incluir alguns exemplos de entrada e saída diretamente no prompt, sem a necessidade de realizar um ajuste fino (fine-tuning) no modelo
-. O modelo captura o padrão demonstrado nesses exemplos e o aplica à nova instrução
-.
-**Chain-of-Thought (Cadeia de Pensamento / CoT):** Processo pelo qual modelos de raciocínio (reasoning models) geram uma cadeia interna de pensamento para analisar o prompt de entrada
-. Essa abordagem faz com que o modelo se destaque na compreensão de tarefas complexas e no planejamento de múltiplas etapas
-. As fontes também citam variantes como Multimodal CoT e LM-Guided CoT
-.
-**System Prompt (Mensagem do Desenvolvedor / Instruções):** Refere-se às diretrizes fornecidas por meio do parâmetro de instruções da API ou por mensagens com o papel de "desenvolvedor" (developer)
-. Elas definem as regras do sistema, o comportamento do assistente (como tom e objetivos) e a lógica de negócios
-. Essas instruções funcionam como a definição de uma função e têm prioridade de autoridade sobre as mensagens enviadas pelo usuário final
-.
-**Zero-shot prompting:** Embora as fontes tragam este termo listado como uma técnica fundamental de engenharia de prompt
-, elas não fornecem uma definição teórica explícita. No entanto, demonstram o conceito de forma prática ao citar que modelos avançados conseguem resolver tarefas complexas (como gerar aplicações web completas do zero) de forma direta em um único prompt, sem a necessidade de exemplos ("no examples needed")
-.
-**Alucinação (Hallucination):** As fontes não definem formalmente o termo "alucinação", mas o abordam como um problema de factualidade que precisa ser mitigado para fortalecer as salvaguardas (guardrails) do sistema
-. É apontado que a técnica de RAG (Retrieval Augmented Generation), que adiciona dados de contexto relevantes ao prompt, auxilia ativamente na redução de alucinações.
+
+- **Few-shot prompting (ou Few-shot learning):** É uma técnica que permite guiar um modelo de linguagem para uma nova tarefa ao incluir alguns exemplos de entrada e saída diretamente no prompt, sem a necessidade de realizar um ajuste fino (fine-tuning) no modelo. O modelo captura o padrão demonstrado nesses exemplos e o aplica à nova instrução.
+- **Chain-of-Thought (Cadeia de Pensamento / CoT):** Processo pelo qual modelos de raciocínio (reasoning models) geram uma cadeia interna de pensamento para analisar o prompt de entrada. Essa abordagem faz com que o modelo se destaque na compreensão de tarefas complexas e no planejamento de múltiplas etapas.
+- **System Prompt (Mensagem do Desenvolvedor / Instruções):** Refere-se às diretrizes fornecidas por meio do parâmetro de instruções da API ou por mensagens com o papel de "desenvolvedor" (developer). Elas definem as regras do sistema, o comportamento do assistente (como tom e objetivos) e a lógica de negócios.
+- **Zero-shot prompting:** Embora as fontes tragam este termo listado como uma técnica fundamental de engenharia de prompt, elas não fornecem uma definição teórica explícita. No entanto, demonstram o conceito de forma prática ao citar que modelos avançados conseguem resolver tarefas complexas diretamente em um único prompt, sem a necessidade de exemplos.
+- **Alucinação (Hallucination):** As fontes abordam a alucinação como um problema de factualidade que precisa ser mitigado para fortalecer as salvaguardas (guardrails) do sistema. A técnica de RAG (Retrieval-Augmented Generation), que adiciona dados de contexto relevantes ao prompt, auxilia ativamente na redução de alucinações.
 
 
 ---
 
 ## 🎙️ Audio Overview (Podcast de IA)
-Como um dos diferenciais do projeto, utilizei o recurso nativo de geração de áudio do NotebookLM. 
+
+Como um dos diferenciais do projeto, utilizei o recurso nativo de geração de áudio do NotebookLM para criar um podcast interativo sobre os materiais.
 
 <audio controls>
   <source src="audio/podcast.m4a" type="audio/mp4">
-  Seu navegador não suporta o reprodutor de áudio.
+  Seu navegador não suporta o reprodutor de áudio nativo.
 </audio>
-[🎙️ Ouvir o Podcast sobre Engenharia de Prompt (Audio Overview)](audio/podcast.wav)
+
+---
+*Caso o reprodutor acima não apareça no seu navegador, você pode ouvir ou baixar o arquivo diretamente aqui:*
+👉 [🎙️ Ouvir o Podcast sobre Engenharia de Prompt (Formato .m4a)](audio/podcast.m4a)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
