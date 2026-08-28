@@ -72,23 +72,23 @@ Prompting para Agentes de IA (AI Agents): Focado em tarefas de longa duração e
 ---
 
 ## 📝 Glossário de Termos
-*Few-shot prompting (ou Few-shot learning): É uma técnica que permite guiar um modelo de linguagem para uma nova tarefa ao incluir alguns exemplos de entrada e saída diretamente no prompt, sem a necessidade de realizar um ajuste fino (fine-tuning) no modelo
+**Few-shot prompting (ou Few-shot learning):** É uma técnica que permite guiar um modelo de linguagem para uma nova tarefa ao incluir alguns exemplos de entrada e saída diretamente no prompt, sem a necessidade de realizar um ajuste fino (fine-tuning) no modelo
 . O modelo captura o padrão demonstrado nesses exemplos e o aplica à nova instrução
 .
-Chain-of-Thought (Cadeia de Pensamento / CoT): Processo pelo qual modelos de raciocínio (reasoning models) geram uma cadeia interna de pensamento para analisar o prompt de entrada
+**Chain-of-Thought (Cadeia de Pensamento / CoT):** Processo pelo qual modelos de raciocínio (reasoning models) geram uma cadeia interna de pensamento para analisar o prompt de entrada
 . Essa abordagem faz com que o modelo se destaque na compreensão de tarefas complexas e no planejamento de múltiplas etapas
 . As fontes também citam variantes como Multimodal CoT e LM-Guided CoT
 .
-System Prompt (Mensagem do Desenvolvedor / Instruções): Refere-se às diretrizes fornecidas por meio do parâmetro de instruções da API ou por mensagens com o papel de "desenvolvedor" (developer)
+**System Prompt (Mensagem do Desenvolvedor / Instruções):** Refere-se às diretrizes fornecidas por meio do parâmetro de instruções da API ou por mensagens com o papel de "desenvolvedor" (developer)
 . Elas definem as regras do sistema, o comportamento do assistente (como tom e objetivos) e a lógica de negócios
 . Essas instruções funcionam como a definição de uma função e têm prioridade de autoridade sobre as mensagens enviadas pelo usuário final
 .
-Zero-shot prompting: Embora as fontes tragam este termo listado como uma técnica fundamental de engenharia de prompt
+**Zero-shot prompting:** Embora as fontes tragam este termo listado como uma técnica fundamental de engenharia de prompt
 , elas não fornecem uma definição teórica explícita. No entanto, demonstram o conceito de forma prática ao citar que modelos avançados conseguem resolver tarefas complexas (como gerar aplicações web completas do zero) de forma direta em um único prompt, sem a necessidade de exemplos ("no examples needed")
 .
-Alucinação (Hallucination): As fontes não definem formalmente o termo "alucinação", mas o abordam como um problema de factualidade que precisa ser mitigado para fortalecer as salvaguardas (guardrails) do sistema
-. É apontado que a técnica de RAG (Retrieval Augmented Generation), que adiciona dados de contexto relevantes ao prompt, auxilia ativamente na redução de alucinações
-*
+**Alucinação (Hallucination):** As fontes não definem formalmente o termo "alucinação", mas o abordam como um problema de factualidade que precisa ser mitigado para fortalecer as salvaguardas (guardrails) do sistema
+. É apontado que a técnica de RAG (Retrieval Augmented Generation), que adiciona dados de contexto relevantes ao prompt, auxilia ativamente na redução de alucinações.
+
 
 ---
 
