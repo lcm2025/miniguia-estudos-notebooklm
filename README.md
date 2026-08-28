@@ -99,7 +99,7 @@ Como um dos diferenciais do projeto, utilizei o recurso nativo de geração de �
   <source src="audio/podcast.m4a" type="audio/mp4">
   Seu navegador não suporta o reprodutor de áudio.
 </audio>
-
+[🎙️ Ouvir o Podcast sobre Engenharia de Prompt (Audio Overview)](audio/podcast.wav)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
