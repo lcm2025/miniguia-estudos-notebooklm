@@ -95,7 +95,7 @@ Prompting para Agentes de IA (AI Agents): Focado em tarefas de longa duração e
 ## 🎙️ Audio Overview (Podcast de IA)
 Como um dos diferenciais do projeto, utilizei o recurso nativo de geração de áudio do NotebookLM. 
 *   **O que é:** Uma conversa simulada em áudio (estilo podcast) onde dois apresentadores de IA debatem as fontes carregadas, resumindo as melhores práticas de Engenharia de Prompt de forma dinâmica.
-*   *## 🎙️ Audio Overview (Podcast de IA)
+*   ## 🎙️ Audio Overview (Podcast de IA)
 Como um dos diferenciais do projeto, utilizei o recurso nativo de geração de áudio do NotebookLM. 
 
 <audio controls>
