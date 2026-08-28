@@ -87,13 +87,13 @@ Prompting para Agentes de IA (AI Agents): Focado em tarefas de longa duração e
 Como um dos diferenciais do projeto, utilizei o recurso nativo de geração de áudio do NotebookLM para criar um podcast interativo sobre os materiais.
 
 <audio controls>
-  <source src="audio/The_Architecture_of_Production_AI_Instructions.m4a" type="audio/mp4">
+  <source src="audio/podcast.m4a" type="audio/mp4">
   Seu navegador não suporta o reprodutor de áudio nativo.
 </audio>
 
 ---
 *Caso o reprodutor acima não apareça no seu navegador, você pode ouvir ou baixar o arquivo diretamente aqui:*
-👉 [🎙️ Ouvir o Podcast sobre Engenharia de Prompt (Formato .m4a)](audio/The_Architecture_of_Production_AI_Instructions.m4a)
+👉 [🎙️ Ouvir o Podcast sobre Engenharia de Prompt (Formato .m4a)](audio/podcast.m4a)
 ---
 
 ## 🛠️ Tecnologias Utilizadas
